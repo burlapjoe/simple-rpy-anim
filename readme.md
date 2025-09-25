@@ -12,6 +12,8 @@ You can find an example below. All you need is a list of your frames in order, a
 For longer image sequences it's recommended to cache all the frames before playing via `renpy.start_predict()`. By default, the Anim() does this automatically on init. You can have it not do so with `Anim(..., precache_on_init=False)`. From there, you can set it to automatically `precache_on_play` if you like, precache manually with `animation.precache()`, or simply skip the step entirely.
 
 
+## Usage
+
 ```rpy
 eileen "This is a Ren'Py file"
 
