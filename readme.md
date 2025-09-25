@@ -9,7 +9,7 @@ You can find an example below. All you need is a list of your frames in order, a
 - Whether to `loop` (default False)
 - What other images to show the animation `behind`
 
-For longer image sequences it's recommended to cache all the frames before playing via `renpy.start_predict()`. By default, the Anim() does this automatically on init. You can have it not do so with `Anim(..., precache_on_init=False)`. From there, you can set it to automatically `precache_on_play` if you like, precache manually with `animation.precache()`, or simply skip the step entirely.
+For longer image sequences it's recommended to cache all the frames before playing via `renpy.start_predict()`. By default, the ImgSeq() does this automatically on instantiation. You can have it not do so with `ImgSeq(..., precache_on_init=False)`. From there, you can set it to automatically `precache_on_play` if you like, or precache manually with `animation.precache()`, or simply skip the step entirely.
 
 
 ## Usage
